@@ -1,4 +1,5 @@
 ;
+
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_cache_pwa-e1_dashboard',
     urlsToCache = [
@@ -7,7 +8,7 @@ const CACHE_NAME = 'v1_cache_pwa-e1_dashboard',
         './assets/js/core/popper.min.js',
         './assets/js/core/bootstrap.min.js',
         './assets/js/plugins/perfect-scrollbar.jquery.min.js',
-        'https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE',
+        //'https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE',
         './assets/js/plugins/chartjs.min.js',
         './assets/js/plugins/bootstrap-notify.js',
         './assets/js/now-ui-dashboard.min.js?v=1.5.0',
