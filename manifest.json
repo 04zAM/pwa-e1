@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json.schemastore.org/web-manifest",
+    "short_name": "Shushufindi",
+    "name": "Bomberos Shushufindi",
+    "description": "Sistema administrativo de los bomberos de shushufindi",
+    "scope": "./",
+    "icons": [{
+            "src": "./assets/img/apple-icon.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/img/favicon.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#ff6600",
+    "theme_color": "#ff6600",
+    "start_url": "./?utm_source=web_app_manifest",
+    "display": "standalone",
+    "orientation": "any"
+}
