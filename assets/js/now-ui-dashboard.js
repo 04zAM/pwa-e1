@@ -63,17 +63,6 @@ seq2 = 0, delays2 = 80, durations2 = 500;
 
 $(document).ready(function() {
 
-    // Register of service worker
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').then(reg => {
-                console.log('Registration successful', reg);
-            })
-            .catch(e => console.error('Error during service worker registration:', e));
-    } else {
-        console.warn('Service Worker is not supported');
-    }
-
-
     if ($('.full-screen-map').length == 0 && $('.bd-docs').length == 0) {
         // On click navbar-collapse the menu will be white not transparent
         $('.collapse').on('show.bs.collapse', function() {

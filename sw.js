@@ -18,7 +18,8 @@ const CACHE_NAME = 'v1_cache_pwa-e1_dashboard',
         './assets/css/bootstrap.min.css',
         './assets/css/now-ui-dashboard.css?v=1.5.0',
         './assets/demo/demo.js',
-        './assets/demo/demo.css'
+        './assets/demo/demo.css',
+        './assets/js/script.js'
     ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
